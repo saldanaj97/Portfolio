@@ -27,18 +27,13 @@
 .skills-container {
     display: flex;
     width: 90%;
-    padding: 20px 10px;
+    padding: 10px 5px;
     margin: 0px auto;
     margin-top: 2rem;
 }
 .skills-container > * {
     flex: 1;
     margin-bottom: 30px;
-}
-.skills-image > img {
-    margin-left: 80px;
-    max-width: 90%;
-    height: auto;
 }
 
 /* Media Query */
@@ -60,9 +55,5 @@
     .skills-bar {
         line-height: 3rem;
         margin: 20px;
-    }
-    .skills-image {
-        display: none;
-        order: 2;
     }
 }

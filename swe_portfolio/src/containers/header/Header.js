@@ -1,7 +1,7 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./header.css";
-import {greeting} from "../../portfolio";
+import {greeting, socialMediaLinks} from "../../portfolio";
 
 function Header() {
     return (
@@ -21,7 +21,7 @@ function Header() {
                     <a href="#skills">About Me</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href={socialMediaLinks.github}>Projects</a>
                 </li>
                 <li>
                     <a href="#contact">Contact Me</a>

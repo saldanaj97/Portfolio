@@ -3,8 +3,8 @@ import emoji from "react-easy-emoji";
 const greeting = {
   username: "Juan Saldana",
   title: "Hi all, I'm Juan",
-  subTitle: emoji("A Junior Software Developer based in Dallas, TX gaining experience in Web, Mobile, and Software Development by building applications with current technologies. "),
-  resumeLink: "https://drive.google.com/file/d/10Ze8ZwbsH1eK4FduK23MJ5L5BqcddavD/view?usp=sharing"
+  subTitle: emoji("A highly motivated Software Developer based in Dallas, TX looking for oppurtunities in developing Web and Mobile applications. My goal is to help make others lives easier by taking part in creating new exciting products for people with the use of cutting edge technology. The buttons below contain links to contact me or look at my past work. "),
+  resumeLink: "https://drive.google.com/file/d/1J6__84YcylqPMCjDeGiMm1hTPPxoIRzr/view?usp=sharing"
 };
 
 const socialMediaLinks = {
@@ -15,14 +15,26 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "About Me",
-  subTitle: "Seeking oppurtunities gain experience in the following technologies",
+  subTitle: "Seeking oppurtunities develop new products with the following technologies.",
   skills: [
-    emoji("⚡ Developed highly interactive Front end / User Interfaces for both web and mobile applications"),
-    emoji("⚡ Integration of third party services such as Firebase, Microsoft Azure, and Microsoft SQL Server")
+    emoji("⚡ Developed highly interactive and user friendly interfaces for both mobile and web applcations."),
+    emoji("⚡ Experience with integration of third party services such as Firebase, Microsoft Azure, and Microsoft SQL Server.")
   ],
 
 // https://fontawesome.com/icons?d=gallery 
 softwareSkills: [
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
     {
         skillName: "HTML-5",
         fontAwesomeClassname: "fab fa-html5"
@@ -35,22 +47,6 @@ softwareSkills: [
         skillName: "JavaScript",
         fontAwesomeClassname: "fab fa-js"
     },
-    {
-        skillName: "ReactJS",
-        fontAwesomeClassname: "fab fa-react"
-    },
-    {
-        skillName: "SQL",
-        fontAwesomeClassname: "fas fa-database"
-    },
-    {
-        skillName: "Firebase",
-        fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-        skillName: "Python",
-        fontAwesomeClassname: "fab fa-python"
-    }
   ]
 };
 
@@ -88,15 +84,29 @@ const techStack = {
   experience: [
     {
         Stack: "Web Development", 
-        progressPercentage: "80%"  
+        progressPercentage: "90%"  
     },
     {
         Stack: "Mobile App Development",
-        progressPercentage: "60%"
+        progressPercentage: "50%"
+    },
+  ]
+};
+
+const languageStack = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+    {
+        Stack: "Java", 
+        progressPercentage: "90%"  
     },
     {
-        Stack: "Programming",
-        progressPercentage: "90%"
+        Stack: "Python",
+        progressPercentage: "80%"
+    },
+    {
+        Stack: "C++",
+        progressPercentage: "80%"
     }
   ]
 };
@@ -126,7 +136,14 @@ const achievementSection = {
         image: require("./assets/images/git.png"),
         footerLink: [
         ]
-      },
+    },
+    {
+      title: "Python LinkedIn Assessment",
+      subtitle: "Passed Python LinkedIn Assessment displaying solid foundational knowledge of python.",
+      image: require("./assets/images/python.png"),
+      footerLink: [
+      ]
+  },
   ]
 };
 
@@ -137,7 +154,4 @@ const contactInfo = {
   email_address: "saldanaj97@gmail.com"
 };
 
-const twitterDetails = {
-  userName : "juansaldana97"//Replace "twitter" with your twitter username without @
-};
-export { greeting, socialMediaLinks, skillsSection, educationSection, techStack, openSource, achievementSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationSection, techStack, languageStack, openSource, achievementSection, contactInfo};
