@@ -21,21 +21,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
           
-      - name: Build
+      - name: Build-and-Deploy
         run: |
           cd swe_portfolio
           rm -rf node_modules package-lock.json
           npm cache clean --force
           npm install
           npm install gh-pages --save
-          CI=false npm run-script build
+          CI=false npm run deploy
         env:
           REACT_APP_GITHUB_TOKEN:  ${{ secrets.REACT_APP_GITHUB_TOKEN }}
 
       # Runs a set of commands using the runners shell
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: swe_portfolio/src
+      #- name: Deploy
+        #uses: JamesIves/github-pages-deploy-action@releases/v3
+       # with:
+          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          #BRANCH: gh-pages
+          #FOLDER: build
