@@ -23,6 +23,7 @@ jobs:
           
       - name: Build
         run: |
+          cd swe_portfolio
           npm install 
           npm run-script build
         env:
