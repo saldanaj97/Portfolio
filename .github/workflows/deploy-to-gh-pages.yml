@@ -28,8 +28,8 @@ jobs:
           npm cache clean --force
           npm install
           npm install gh-pages --save
-          git config --global user.email "saldanaj97@gmail.com"
-          git config --global user.name "Juan Saldana"
+          git config --global user.email saldanaj97@gmail.com
+          git config --global user.name Juan
           CI=false npm run deploy
         env:
           REACT_APP_GITHUB_TOKEN:  ${{ secrets.REACT_APP_GITHUB_TOKEN }}
