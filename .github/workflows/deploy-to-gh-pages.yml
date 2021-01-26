@@ -26,7 +26,7 @@ jobs:
           cd swe_portfolio
           rm -rf node_modules package-lock.json
           npm install
-          CI=false npm run build
+          CI=false npm run-script build
         env:
           REACT_APP_GITHUB_TOKEN:  ${{ secrets.REACT_APP_GITHUB_TOKEN }}
 
