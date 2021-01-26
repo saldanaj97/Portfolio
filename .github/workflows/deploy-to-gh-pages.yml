@@ -28,7 +28,7 @@ jobs:
           npm install
           CI=false npm run-script build
         env:
-          REACT_APP_GITHUB_TOKEN:  ${{ secrets.REACT_APP_GITHUB_TOKEN }}
+          REACT_APP_GITHUB_TOKEN:  dbca4d09d89a959c603891f950cd41cdfdf2f7d5
 
       # Runs a set of commands using the runners shell
       - name: Deploy
