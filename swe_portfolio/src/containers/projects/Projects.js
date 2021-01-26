@@ -6,7 +6,6 @@ import Button from "../../components/button/Button";
 import Loading from "../loading/Loading";
 import { openSource, socialMediaLinks } from "../../portfolio";
 
-
 export default function Projects() {
   const GithubRepoCard = lazy(() => import('../../components/githubRepoCard/GithubRepoCard'));
   const FailedLoading = () => null ;
@@ -15,12 +14,13 @@ export default function Projects() {
 
   useEffect(() => {
     function getRepoData() {
+        console.log(openSource.githubConvertedToken);
         const client = new ApolloClient({
           uri: "https://api.github.com/graphql",
           request: (operation) => {
             operation.setContext({
               headers: {
-                authorization: openSource.githubConvertedToken,
+                authorization: "Bearer ${openSource.githubConvertedToken}",
               },
             });
           },
