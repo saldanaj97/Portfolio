@@ -106,7 +106,7 @@ const languageStack = {
     },
     {
         Stack: "C++",
-        progressPercentage: "80%"
+        progressPercentage: "60%"
     }
   ]
 };
