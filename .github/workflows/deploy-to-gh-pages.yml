@@ -24,6 +24,7 @@ jobs:
       - name: Build
         run: |
           cd swe_portfolio
+          npm install
           npm run build
         env:
           REACT_APP_GITHUB_TOKEN:  ${{ secrets.REACT_APP_GITHUB_TOKEN }}
