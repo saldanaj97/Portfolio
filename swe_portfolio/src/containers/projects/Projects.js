@@ -15,6 +15,7 @@ export default function Projects() {
 
   useEffect(() => {
     function getRepoData() {
+        console.log(openSource.githubConvertedToken);
         const client = new ApolloClient({
           uri: "https://api.github.com/graphql",
           request: (operation) => {
