@@ -28,7 +28,8 @@ jobs:
           npm cache clean --force
           npm install
           npm install gh-pages --save
-          CI=false npm run build
+          CI=false 
+          npm run-script build
         env:
           REACT_APP_GITHUB_TOKEN:  ${{ secrets.REACT_APP_GITHUB_TOKEN }}
 
