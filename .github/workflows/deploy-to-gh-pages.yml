@@ -1,3 +1,4 @@
+  
 # This is a basic workflow to help you get started with Actions
 
 name: Build and Deploy
@@ -18,17 +19,16 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      # npm install gh-pages --save
-      # rm -rf node_modules package-lock.json
-      # npm cache clean --force
       - name: Checkout
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v2
           
-      - name: Build
+      - name: Build-and-Deploy
         run: |
-          npm install
           cd swe_portfolio
+          rm -rf node_modules package-lock.json
+          npm cache clean --force
           npm install
+          npm install gh-pages --save
           CI=false 
           npm run-script build
         env:
@@ -36,13 +36,10 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases@3.6.2
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: swe_portfolio/build
-
-
-
 
 
