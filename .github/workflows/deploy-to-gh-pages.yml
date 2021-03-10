@@ -28,7 +28,6 @@ jobs:
           CI=False
           npm install
           npm run-script build
-          npm run deploy
         env:
           REACT_APP_GITHUB_TOKEN:  ${{ secrets.REACT_APP_GITHUB_TOKEN }}
 
