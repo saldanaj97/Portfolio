@@ -28,15 +28,9 @@ jobs:
           CI=False
           npm install
           npm run-script build
+          npm run deploy
         env:
           REACT_APP_GITHUB_TOKEN:  ${{ secrets.REACT_APP_GITHUB_TOKEN }}
 
-      # Runs a set of commands using the runners shell
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: swe_portfolio/build
 
 
