@@ -22,7 +22,6 @@ export default function Profile() {
         });
       },
     });
-    console.log(`Testing the key${openSource.githubConvertedToken}`);
     client
       .query({
         query: gql`
@@ -43,6 +42,7 @@ export default function Profile() {
       .catch(function (error) {
           console.log(error);
           setProfileFunction("Error");
+          console.log(`Testing the key${openSource.githubConvertedToken}`);
           console.log("Because of this Error Contact Section is Showed instead of Profile");
           openSource.showGithubProfile = "false";
       });
