@@ -22,6 +22,7 @@ export default function Profile() {
         });
       },
     });
+    console.log(`Testing the key${openSource.githubConvertedToken}`);
     client
       .query({
         query: gql`
