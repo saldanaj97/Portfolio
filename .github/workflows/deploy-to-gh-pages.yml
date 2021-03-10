@@ -18,16 +18,17 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # npm install gh-pages --save
+      # rm -rf node_modules package-lock.json
+      # npm cache clean --force
       - name: Checkout
         uses: actions/checkout@v2.3.1
           
-      - name: Build-and-Deploy
+      - name: Build
         run: |
-          cd swe_portfolio
-          rm -rf node_modules package-lock.json
-          npm cache clean --force
           npm install
-          npm install gh-pages --save
+          cd swe_portfolio
+          npm install
           CI=false 
           npm run-script build
         env:
