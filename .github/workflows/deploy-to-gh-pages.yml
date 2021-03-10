@@ -25,6 +25,7 @@ jobs:
       - name: Build
         run: |
           cd swe_portfolio
+          CI=False
           npm install
           npm run-script build
         env:
