@@ -30,6 +30,13 @@ jobs:
           npm run-script build
         env:
           REACT_APP_GITHUB_TOKEN:  ${{ secrets.REACT_APP_GITHUB_TOKEN }}
+          
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_KEY }}
+            BRANCH: gh-pages
+            FOLDER: swe_portfolio/build
 
 
 
