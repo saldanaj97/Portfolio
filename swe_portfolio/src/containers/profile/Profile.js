@@ -22,7 +22,6 @@ export default function Profile() {
         });
       },
     });
-    console.log(`Printing key Bearer ${openSource.githubConvertedToken}`);
     client
       .query({
         query: gql`
