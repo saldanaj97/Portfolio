@@ -1,6 +1,6 @@
 import React from "react";
 import "./githubprofilecard.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
+import SocialMedia from "../socialMedia/SocialMedia";
 import {contactInfo} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import { Fade } from "react-reveal";
