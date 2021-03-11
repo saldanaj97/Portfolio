@@ -3,6 +3,10 @@
   "name": "swe_portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "~6.10.3",
+    "npm": "~5.6.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -25,7 +29,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
