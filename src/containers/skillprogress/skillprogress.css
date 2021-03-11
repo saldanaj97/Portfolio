@@ -9,8 +9,8 @@
 .meter > span {
     display: block;
     height: 100%;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: #aaa5ff;
@@ -18,22 +18,34 @@
     overflow: hidden;
 }
 .skill{
-    line-height: 3.5vw;
+    line-height: 3.0vw;
+    margin: 0px 5%;
 }
-.skill-bars{
+
+.skills-bar{
     font-size: 28px;
     width: 40%;
 }
 .skills-container {
     display: flex;
-    width: 90%;
+    width: 80%;
     padding: 10px 5px;
     margin: 0px auto;
     margin-top: 2rem;
 }
 .skills-container > * {
     flex: 1;
+    flex-direction: row;
     margin-bottom: 30px;
+}
+
+.skills-container p {
+    margin: 0 0;
+}
+
+.skills-heading {
+    font-size: 40px;
+    margin: 25px 5%;
 }
 
 /* Media Query */

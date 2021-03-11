@@ -24,7 +24,6 @@ export default function StackProgress() {
                         );
                     })}
                 </div>
-                <p></p>
                 <div className="skills-bar">
                     <h1 className="skills-heading">Language Proficiency</h1>
                     {languageStack.experience.map((exp) => {
