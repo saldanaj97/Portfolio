@@ -22,10 +22,11 @@
     "react-easy-emoji": "^1.4.0",
     "react-headroom": "^3.1.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "webpack": "^4.42.0"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
