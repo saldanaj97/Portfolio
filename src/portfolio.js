@@ -1,5 +1,7 @@
 import emoji from "react-easy-emoji";
 
+require('dotenv').config()
+
 const greeting = {
   username: "Juan Saldana",
   title: "Hi all, I'm Juan",
