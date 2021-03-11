@@ -22,6 +22,7 @@ export default function Profile() {
         });
       },
     });
+    console.log(process.env.TEST_TOKEN);
     client
       .query({
         query: gql`
