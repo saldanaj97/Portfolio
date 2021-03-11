@@ -1,11 +1,15 @@
-const express = require("express");
-const path = require("path");
+const path = require('path');
+const express = require('express');
 const app = express();
-const port = process.env.PORT || 8080;
+const publicPath = path.join(__dirname, '..', 'public');
+const port = process.env.PORT || 3000;
 
-app.use(express.static(path.join(__dirname, "/public")));
+app.use(express.static(publicPath));
 
-// This route serves the React app
-app.get('/', (req, res) => res.sendFile(path.resolve(__dirname, "build", "index.html")));
+app.get('*', (req, res) => {
+   res.sendFile(path.join(publicPath, 'index.html'));
+});
 
-app.listen(port, () => console.log(`Server listening on port ${port}`));
+app.listen(port, () => {
+   console.log('Server is up!');
+});
