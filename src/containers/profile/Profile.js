@@ -17,12 +17,11 @@ export default function Profile() {
       request: (operation) => {
         operation.setContext({
           headers: {
-            authorization: `Bearer ${openSource.githubConvertedToken}`,
+            authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`,
           },
         });
       },
     });
-    console.log(process.env.TEST_TOKEN);
     client
       .query({
         query: gql`
@@ -46,6 +45,7 @@ export default function Profile() {
           console.log("Because of this Error Contact Section is Showed instead of Profile");
           openSource.showGithubProfile = "false";
       });
+      console.log('Printing test token: ' + process.env.TEST_TOKEN);
   }
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
