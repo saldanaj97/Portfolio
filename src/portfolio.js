@@ -34,20 +34,24 @@ softwareSkills: [
       fontAwesomeClassname: "fab fa-python"
     },
     {
+      skillName: "HTML-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "React.js",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-        skillName: "HTML-5",
-        fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-        skillName: "CSS",
-        fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-        skillName: "JavaScript",
-        fontAwesomeClassname: "fab fa-js"
     },
   ]
 };
