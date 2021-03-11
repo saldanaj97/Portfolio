@@ -15,19 +15,19 @@
     height: auto;
   }
   
-  .skills-heading {
-    font-size: 56px;
-    font-weight: 400;
+  .skills-aboutme-heading {
+    font-size: 40px;
+    margin: 0px;
   }
   
   /* Media Query */
   @media (max-width: 1380px) {
-    .skills-heading {
+    .skills-aboutme-heading {
       font-size: 40px;
     }
   }
   @media (max-width: 768px) {
-    .skills-heading {
+    .skills-aboutme-heading {
       font-size: 30px;
       text-align: center;
     }
