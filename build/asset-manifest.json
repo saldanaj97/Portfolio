@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6433508c.chunk.css",
+    "main.js": "/Portfolio/static/js/main.241454c1.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.241454c1.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.468d10e1.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.468d10e1.js.map",
+    "static/js/2.05bd3afb.chunk.js": "/Portfolio/static/js/2.05bd3afb.chunk.js",
+    "static/js/2.05bd3afb.chunk.js.map": "/Portfolio/static/js/2.05bd3afb.chunk.js.map",
+    "static/css/3.f6606024.chunk.css": "/Portfolio/static/css/3.f6606024.chunk.css",
+    "static/js/3.bf0003f9.chunk.js": "/Portfolio/static/js/3.bf0003f9.chunk.js",
+    "static/js/3.bf0003f9.chunk.js.map": "/Portfolio/static/js/3.bf0003f9.chunk.js.map",
+    "static/css/4.4f17f8d6.chunk.css": "/Portfolio/static/css/4.4f17f8d6.chunk.css",
+    "static/js/4.5e81c420.chunk.js": "/Portfolio/static/js/4.5e81c420.chunk.js",
+    "static/js/4.5e81c420.chunk.js.map": "/Portfolio/static/js/4.5e81c420.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.c06ad5c892dbd2c841085da46807275e.js": "/Portfolio/precache-manifest.c06ad5c892dbd2c841085da46807275e.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/3.f6606024.chunk.css.map": "/Portfolio/static/css/3.f6606024.chunk.css.map",
+    "static/css/4.4f17f8d6.chunk.css.map": "/Portfolio/static/css/4.4f17f8d6.chunk.css.map",
+    "static/css/main.6433508c.chunk.css.map": "/Portfolio/static/css/main.6433508c.chunk.css.map",
+    "static/js/2.05bd3afb.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.05bd3afb.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/contactMail.webp": "/Portfolio/static/media/contactMail.68e84138.webp",
+    "static/media/cplusplus.png": "/Portfolio/static/media/cplusplus.0b849c72.png",
+    "static/media/developerActivity.svg": "/Portfolio/static/media/developerActivity.59389695.svg",
+    "static/media/git.png": "/Portfolio/static/media/git.ee1369e9.png",
+    "static/media/manOnTable.svg": "/Portfolio/static/media/manOnTable.52be3144.svg",
+    "static/media/python.png": "/Portfolio/static/media/python.dc199ecc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.468d10e1.js",
+    "static/js/2.05bd3afb.chunk.js",
+    "static/css/main.6433508c.chunk.css",
+    "static/js/main.241454c1.chunk.js"
+  ]
+}
