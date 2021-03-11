@@ -76,13 +76,15 @@ export default function Projects() {
   return (
     <Suspense fallback={renderLoader()}>
       <div className="main" id="opensource">
-        <h1 className="project-title">Projects</h1>
-        <div className="repo-cards-div-main">
-          {repo.map((v, i) => {
-            return <GithubRepoCard repo={v} key={v.node.id} />;
-          })}
+        <div class="repo-cards">
+          <h1 className="project-title">Projects</h1>
+          <div className="repo-cards-div-main">
+            {repo.map((v, i) => {
+              return <GithubRepoCard repo={v} key={v.node.id} />;
+            })}
+          </div>
+          <Button text={"More Projects"} className="project-button" href={socialMediaLinks.github} newTab={true} />
         </div>
-        <Button text={"More Projects"} className="project-button" href={socialMediaLinks.github} newTab={true} />
       </div>
     </Suspense>
   );
