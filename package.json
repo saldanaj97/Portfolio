@@ -24,13 +24,13 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm install", 
+    "heroku-postbuild": "npm install",
     "postinstall": "npm run build"
   },
   "eslintConfig": {
