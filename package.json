@@ -24,7 +24,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "react-scripts build",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
