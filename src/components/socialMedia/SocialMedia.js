@@ -7,7 +7,7 @@ export default function socialMedia() {
     <div className="social-media-div">
       
       {socialMediaLinks.github ? 
-      (<a href={socialMediaLinks.github} className="icon-button github" target="_blank">
+      (<a href={socialMediaLinks.github} className="icon-button github">
         <i className="fab fa-github"></i>
         <span></span>
       </a>)
@@ -15,7 +15,7 @@ export default function socialMedia() {
       null}
 
       {socialMediaLinks.linkedin ?
-      <a href={socialMediaLinks.linkedin} className="icon-button linkedin" target="_blank">
+      <a href={socialMediaLinks.linkedin} className="icon-button linkedin">
         <i className="fab fa-linkedin-in"></i>
         <span></span>
       </a>
@@ -23,7 +23,7 @@ export default function socialMedia() {
       null}
 
       {socialMediaLinks.gmail ?
-      <a href={`mailto:${socialMediaLinks.gmail}`} className="icon-button google" target="_blank">
+      <a href={`mailto:${socialMediaLinks.gmail}`} className="icon-button google">
         <i className="fab fa-google"></i>
         <span></span>
       </a>
