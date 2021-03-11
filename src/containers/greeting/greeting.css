@@ -4,53 +4,67 @@
     margin: 0px auto;
     margin-top: 4rem;
   }
-  .greet-main {
-    width: 90%;
-    padding: 20px 10px;
-    margin: 0px auto;
-    margin-top: 2rem;
-  }
+
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;  
+  margin: 0px auto;
+  margin-top: 2rem;
+  background-color: #a39bd3;
+  border-radius: 40px;
+}
+
+.greet-main{
+  background-image: url(../../assets/images/wave-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
   
-  .gretting-main {
-    width: 90%;
-    padding: 20px 10px;
-    margin: 0px auto;
-  }
+.greeting-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+ 
+.greeting-main {
+  display: flex;
+}
   
-  .greeting-main {
-    display: flex;
-  }
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
   
-  .greeting-main > * {
-    flex: 1;
-    margin-bottom: 30px;
-  }
-  .button-greeting-div {
-    display: flex;
-    margin-top: 20px;
-  }
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
   
-  .greeting-text {
-    font-size: 70px;
-    line-height: 1.1;
-  }
+.greeting-text {
+  font-size: 70px;
+  line-height: 1.1;
+  color: white;
+}
   
-  .greeting-text-p {
-    font-size: 30px;
-    line-height: 40px;
-  }
+.greeting-text-p {
+  font-size: 30px;
+  line-height: 40px;
+  color: white;
+}
   
-  .greeting-image-div > img {
-    max-width: 100%;
-    height: auto;
-  }
-  .wave-emoji {
-    animation-duration: 1.8s;
-    animation-iteration-count: infinite;
-    animation-name: wave;
-    display: inline-block;
-    transform-origin: 70% 70%;
-  }
+.greeting-image-div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
   
   @keyframes wave {
     0% {
