@@ -3,28 +3,33 @@
     height: auto;
     width: 250px;
 }
+
 .card-title {
-    color: #000000;
+    color: white;
     font-size: 22px;
     line-height: 24px;
     font-weight: 700;
     margin: 15px 0 0 0;
 }
+
 .card-subtitle {
-    color: #666666;
+    color: white;
     font-size: 17px;
     line-height: 1.5rem;
 }
+
 .certificate-card {
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-    padding: 1.5rem;
     border-radius: 10px;
-    border: 1px solid rgba(211, 211, 211, 0.397);
 }
+
 .certificate-detail-div {
-text-align: center;
+    text-align: center;
+    background-color: #6c63ff;
+    padding: 10px;
 }
+
 .certificate-card:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
@@ -33,6 +38,8 @@ text-align: center;
     height: 250px;
     overflow: hidden;
     text-align: center;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
 }
 .achievement-cards-div {
     display: grid;
