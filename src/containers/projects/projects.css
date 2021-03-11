@@ -1,12 +1,12 @@
 .repo-cards {
-  background-color: #a39bd3;
+  background-color: white;
   padding: 28px;
   border-radius: 40px;
 }
 
 .project-title {
     font-size: 45px;
-    color: white;
+    color: black;
   }
   
   .startup-project-text img{

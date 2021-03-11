@@ -5,7 +5,7 @@
 }
 
 .card-title {
-    color: white;
+    color: black;
     font-size: 22px;
     line-height: 24px;
     font-weight: 700;
@@ -13,7 +13,7 @@
 }
 
 .card-subtitle {
-    color: white;
+    color: black;
     font-size: 17px;
     line-height: 1.5rem;
 }
@@ -26,7 +26,6 @@
 
 .certificate-detail-div {
     text-align: center;
-    background-color: #6c63ff;
     padding: 10px;
 }
 

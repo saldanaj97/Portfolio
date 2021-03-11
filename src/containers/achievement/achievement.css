@@ -1,13 +1,22 @@
+.achievement-main-div {
+  background-color: #a39bd3;
+  background-image: url(../../assets/images/wave_repo_card.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  height: 650px;
+  padding: 30px;
+}
+
 .achievement-heading {
-    font-size: 56px;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0px;
+    font-size: 45px;
+    color: white;
+    margin-top: 0;
   }
+
   .achievement-subtitle {
     text-transform: uppercase;
-    margin: 0px;
-    margin-bottom: 50px;
+    color: white;
   }
   /* Media Query */
   @media (max-width: 1380px) {
