@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75048d674c38dda47e1e65d8bcd41679",
+    "revision": "6fcf2298c3e8ff830fa46900dedd3737",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "15fba7cee8249aa33fc7",
+    "revision": "45285fdefe4dd6cd4a10",
     "url": "/Portfolio/static/css/3.f6606024.chunk.css"
   },
   {
-    "revision": "df5eca2204cfcf63eb18",
-    "url": "/Portfolio/static/css/4.de2537e6.chunk.css"
+    "revision": "a28eff5acbcc15fff01b",
+    "url": "/Portfolio/static/css/4.acbac857.chunk.css"
   },
   {
-    "revision": "7eead7ffa72cb46430c6",
-    "url": "/Portfolio/static/css/main.81d0fa38.chunk.css"
+    "revision": "9287437cd80c8f3790f7",
+    "url": "/Portfolio/static/css/main.1a2a2001.chunk.css"
   },
   {
-    "revision": "9c4dae7871ee894ab26f",
-    "url": "/Portfolio/static/js/2.b822d384.chunk.js"
+    "revision": "485b6bd904fd86def387",
+    "url": "/Portfolio/static/js/2.61daa1a1.chunk.js"
   },
   {
     "revision": "5b571a43117d7de158db9e221eaa0225",
-    "url": "/Portfolio/static/js/2.b822d384.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.61daa1a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "15fba7cee8249aa33fc7",
-    "url": "/Portfolio/static/js/3.7a6154a9.chunk.js"
+    "revision": "45285fdefe4dd6cd4a10",
+    "url": "/Portfolio/static/js/3.526187e9.chunk.js"
   },
   {
-    "revision": "df5eca2204cfcf63eb18",
-    "url": "/Portfolio/static/js/4.2686642e.chunk.js"
+    "revision": "a28eff5acbcc15fff01b",
+    "url": "/Portfolio/static/js/4.c092f4bc.chunk.js"
   },
   {
-    "revision": "7eead7ffa72cb46430c6",
-    "url": "/Portfolio/static/js/main.8f47e376.chunk.js"
+    "revision": "9287437cd80c8f3790f7",
+    "url": "/Portfolio/static/js/main.0f85b5fb.chunk.js"
   },
   {
-    "revision": "ba258beb40cfbce674aa",
-    "url": "/Portfolio/static/js/runtime-main.447d638b.js"
+    "revision": "f0307c8a7eca9a87cc2f",
+    "url": "/Portfolio/static/js/runtime-main.a554223f.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
