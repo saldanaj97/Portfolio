@@ -26,7 +26,7 @@ export default function Projects() {
   if (!(typeof repo === 'string' || repo instanceof String)){
   return (
     <Suspense fallback={renderLoader()}>
-      <h1 className="projects-heading">Projects</h1>
+      <h1 className="projects-heading" id="projects">Projects</h1>
       <div className="material-cards">
         <div className="row">
           <div className="repocards-div-main">
