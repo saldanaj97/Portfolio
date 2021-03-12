@@ -1,37 +1,26 @@
-.repo-cards {
-  background-color: white;
-  padding: 28px;
-  border-radius: 40px;
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.project-title {
-    font-size: 45px;
-    color: black;
+.repocards-div-main {
+  margin: 0 auto;
+  display: flex;
+}
+
+.material-cards {
+  width: 100%;
+}
+
+.projects-heading {
+  font-size: 40px;
+  margin: 25px 5%;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+.repocards-div-main{
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-  
-  .startup-project-text img{
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .repo-cards-div-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 1rem 1rem;
-  }
-  
-  /* Media Query */
-  @media (max-width: 1380px) {
-    .project-title {
-      font-size: 40px;
-    }
-  }
-  @media (max-width: 768px) {
-    .project-title {
-      font-size: 30px;
-      text-align: center;
-    }
-    .repo-cards-div-main{
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
-  }
+}
