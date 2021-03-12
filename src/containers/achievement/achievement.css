@@ -1,4 +1,11 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .achievement-main-div {
+  flex: 1;
   background-color: #a39bd3;
   background-image: url(../../assets/images/wave_repo_card.svg);
   background-position: bottom;

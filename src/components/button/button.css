@@ -22,11 +22,13 @@
     transition: all .3s ease 0s;
     transform: translateY(-3px);
   }
+  
   .project-button{
     display: flex;
     justify-content: center;
     margin-top: 20px;
   }
+
   .project-button > .main-button{
     margin-right: 0 !important;
   }
