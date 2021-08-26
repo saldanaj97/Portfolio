@@ -5,7 +5,7 @@ require('dotenv').config()
 const greeting = {
   username: "Juan Saldana",
   title: "Hi all, I'm Juan",
-  subTitle: emoji("A highly motivated Software Developer based in Dallas, TX looking for oppurtunities in developing Web and Mobile applications. My goal is to help make others lives easier by taking part in creating new exciting products for people with the use of cutting edge technology. The buttons below contain links to contact me or look at my past work. "),
+  subTitle: emoji("A highly motivated Software Developer based in Dallas, TX looking for opportunities in developing Web and Mobile applications. My goal is to help make others lives easier by taking part in creating new exciting products for people with the use of cutting edge technology. The buttons below contain links to contact me or look at my past work. "),
   resumeLink: "https://drive.google.com/file/d/1J6__84YcylqPMCjDeGiMm1hTPPxoIRzr/view?usp=sharing"
 };
 
