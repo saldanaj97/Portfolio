@@ -17,7 +17,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "About Me",
-  subTitle: "Seeking oppurtunities develop new products with the following technologies.",
+  subTitle: "Seeking opportunities develop new products with the following technologies.",
   skills: [
     emoji("⚡ Developed highly interactive and user friendly interfaces for both mobile and web applcations."),
     emoji("⚡ Experience with integration of third party services such as Firebase, Microsoft Azure, and Microsoft SQL Server.")
@@ -111,8 +111,8 @@ const languageStack = {
         progressPercentage: "80%"
     },
     {
-        Stack: "C++",
-        progressPercentage: "60%"
+        Stack: "Flutter",
+        progressPercentage: "95%"
     }
   ]
 };
