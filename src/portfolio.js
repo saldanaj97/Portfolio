@@ -103,16 +103,16 @@ const languageStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-        Stack: "Java", 
-        progressPercentage: "90%"  
+        Stack: "Javascript", 
+        progressPercentage: "35%"  
     },
     {
         Stack: "Python",
-        progressPercentage: "80%"
+        progressPercentage: "50%"
     },
     {
         Stack: "Flutter",
-        progressPercentage: "95%"
+        progressPercentage: "15%"
     }
   ]
 };
