@@ -1,71 +1,74 @@
-.meter { 
-    height: 20px;
-    position: relative;
-    background: rgb(243, 239, 239);
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
-    border-radius: 25px;
+.meter {
+  height: 20px;
+  position: relative;
+  background: rgb(243, 239, 239);
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
 }
 .meter > span {
-    display: block;
-    height: 100%;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: #aaa5ff;
-    position: relative;
-    overflow: hidden;
+  display: block;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #aaa5ff;
+  position: relative;
+  overflow: hidden;
 }
-.skill{
-    line-height: 5.0vw;
-    margin: 0px 5%;
+.skill {
+  line-height: 2vw;
+  margin: 0px 5%;
 }
 
-.skills-bar{
-    font-size: 28px;
-    width: 40%;
+.skills-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 28px;
+  width: 100%;
 }
 .skills-container {
-    display: flex;
-    width: 90%;
-    padding: 10px 5px;
-    margin: 0px auto;
-    margin-top: 2rem;
+  display: flex;
+  width: 90%;
+  padding: 10px 5px;
+  margin: 0px auto;
+  margin-top: 2rem;
 }
 .skills-container > * {
-    flex: 1;
-    flex-direction: row;
-    margin-bottom: 30px;
+  flex: 1;
+  flex-direction: row;
+  margin-bottom: 30px;
 }
 
 .skills-container p {
-    margin: 0 0;
+  margin: 0 0;
 }
 
 .skills-heading {
-    font-size: 40px;
-    margin: 25px 5%;
+  font-size: 40px;
+  margin: 25px 5%;
 }
 
 /* Media Query */
 
 @media (max-width: 1456px) {
-    .skills-bar {
-        line-height: 4rem;
-    }
-    .skills-image {
-        display: none;
-        order: 2;
-    }
+  .skills-bar {
+    line-height: 4rem;
+  }
+  .skills-image {
+    display: none;
+    order: 2;
+  }
 }
 
 @media (max-width: 768px) {
-    .skills-container {
-        flex-direction: column
-    }
-    .skills-bar {
-        line-height: 3rem;
-        margin: 20px;
-    }
+  .skills-container {
+    flex-direction: column;
+  }
+  .skills-bar {
+    line-height: 3rem;
+    margin: 20px;
+  }
 }

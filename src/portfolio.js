@@ -8,8 +8,7 @@ const greeting = {
   subTitle: emoji(
     "A highly motivated Software Developer based in Dallas, TX looking for opportunities in developing Web and Mobile applications. My goal is to help make others lives easier by taking part in creating new exciting products for people with the use of cutting edge technology. The buttons below contain links to contact me or look at my past work. "
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1J6__84YcylqPMCjDeGiMm1hTPPxoIRzr/view?usp=sharing",
+  resumeLink: "https://docs.google.com/document/d/1uziqWB0PZMeOtWaplyu45jTNqNo6uaIc/edit?usp=sharing&ouid=108676278263961432674&rtpof=true&sd=true",
 };
 
 const socialMediaLinks = {
@@ -20,16 +19,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "About Me",
-  subTitle:
-    "Seeking oppurtunities develop new products with the following technologies.",
-  skills: [
-    emoji(
-      "⚡ Developed highly interactive and user friendly interfaces for both mobile and web applcations."
-    ),
-    emoji(
-      "⚡ Experience with integration of third party services such as Firebase, Microsoft Azure, and Microsoft SQL Server."
-    ),
-  ],
+  subTitle: "Seeking oppurtunities develop new products with the following technologies.",
+  skills: [emoji("⚡ Developed highly interactive and user friendly interfaces for both mobile and web applcations."), emoji("⚡ Experience with integration of third party services such as Firebase, Microsoft Azure, and Microsoft SQL Server.")],
 
   // https://fontawesome.com/icons?d=gallery
   softwareSkills: [
@@ -92,36 +83,30 @@ const educationSection = {
   ],
 };
 
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Web Development",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "Mobile App Development",
-      progressPercentage: "50%",
-    },
-  ],
-};
-
 const languageStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-        Stack: "Javascript", 
-        progressPercentage: "35%"  
+      Stack: "React",
+      progressPercentage: "60%",
     },
     {
-        Stack: "Python",
-        progressPercentage: "50%"
+      Stack: "Node/Express",
+      progressPercentage: "60%",
     },
     {
-        Stack: "Flutter",
-        progressPercentage: "15%"
-    }
-  ]
+      Stack: "MongoDB",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Python",
+      progressPercentage: "25%",
+    },
+    {
+      Stack: "Flutter",
+      progressPercentage: "40%",
+    },
+  ],
 };
 
 const openSource = {
@@ -137,22 +122,19 @@ const achievementSection = {
   achivementsCards: [
     {
       title: "C++ LinkedIn Assessment",
-      subtitle:
-        "Passed C++ LinkedIn Assessment displaying solid foundational knowledge of C++.",
+      subtitle: "Passed C++ LinkedIn Assessment displaying solid foundational knowledge of C++.",
       image: require("./assets/images/cplusplus.png"),
       footerLink: [],
     },
     {
       title: "Git LinkedIn Assessment",
-      subtitle:
-        "Passed Git LinkedIn Assessment displaying solid foundational knowledge of Git.",
+      subtitle: "Passed Git LinkedIn Assessment displaying solid foundational knowledge of Git.",
       image: require("./assets/images/git.png"),
       footerLink: [],
     },
     {
       title: "Python LinkedIn Assessment",
-      subtitle:
-        "Passed Python LinkedIn Assessment displaying solid foundational knowledge of python.",
+      subtitle: "Passed Python LinkedIn Assessment displaying solid foundational knowledge of python.",
       image: require("./assets/images/python.png"),
       footerLink: [],
     },
@@ -161,20 +143,9 @@ const achievementSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Feel free to reach me at my email, through the phone, or on LinkedIn.",
+  subtitle: "Feel free to reach me at my email, through the phone, or on LinkedIn.",
   number: "(469)432-9695",
   email_address: "saldanaj97@gmail.com",
 };
 
-export {
-  greeting,
-  socialMediaLinks,
-  skillsSection,
-  educationSection,
-  techStack,
-  languageStack,
-  openSource,
-  achievementSection,
-  contactInfo,
-};
+export { greeting, socialMediaLinks, skillsSection, educationSection, languageStack, openSource, achievementSection, contactInfo };
