@@ -6,7 +6,7 @@ const greeting = {
   username: "Juan Saldana",
   title: "Hi all, I'm Juan",
   subTitle: emoji(
-    "A highly motivated Software Developer based in Dallas, TX looking for opportunities in developing Web and Mobile applications. My goal is to help make others lives easier by taking part in creating new exciting products for people with the use of cutting edge technology. The buttons below contain links to contact me or look at my past work. "
+    "A highly motivated Software Developer based in Dallas, TX seeking opportunities in developing web applications primarily using javascript and javascript frameworks. The buttons below contain links to contact me or look at my past work. "
   ),
   resumeLink: "https://docs.google.com/document/d/1uziqWB0PZMeOtWaplyu45jTNqNo6uaIc/edit?usp=sharing&ouid=108676278263961432674&rtpof=true&sd=true",
 };
