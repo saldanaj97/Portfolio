@@ -29,11 +29,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && netlify deploy --prod",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm install"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
