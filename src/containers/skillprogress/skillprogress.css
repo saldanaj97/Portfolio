@@ -17,40 +17,53 @@
   position: relative;
   overflow: hidden;
 }
+
 .skill {
   line-height: 2vw;
   margin: 0px 5%;
 }
 
-.skills-bar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 28px;
-  width: 100%;
-}
 .skills-container {
   display: flex;
-  width: 90%;
+  flex-direction: row;
+  width: 100%;
   padding: 10px 5px;
   margin: 0px auto;
   margin-top: 2rem;
 }
+
+.skills-bar {
+  display: flex;
+  font-size: 28px;
+  width: 80%;
+}
+
 .skills-container > * {
-  flex: 1;
-  flex-direction: row;
+  flex-direction: column;
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 
 .skills-container p {
-  margin: 0 0;
+  margin: 10px 0;
 }
 
 .skills-heading {
   font-size: 40px;
-  margin: 25px 5%;
+  margin: 0px 5%;
+  line-height: 3vw;
 }
 
+.third-party-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.third-party-container p {
+  font-size: 28px;
+  margin: 10px 20px;
+}
 /* Media Query */
 
 @media (max-width: 1456px) {

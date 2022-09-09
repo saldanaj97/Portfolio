@@ -112,6 +112,7 @@ const languageStack = {
       progressPercentage: "40%",
     },
   ],
+  thirdPartyExperience: [emoji("🚀 MongoDB Atlas"), emoji("🚀 Railway"), emoji("🚀 Heroku"), emoji("🚀 Netlify"), emoji("🚀 Firestore"), emoji("🚀 Github")],
 };
 
 const openSource = {
