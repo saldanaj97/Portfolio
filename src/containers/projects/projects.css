@@ -7,6 +7,8 @@
 .repocards-div-main {
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .material-cards {
@@ -20,7 +22,7 @@
 
 /* Media Query */
 @media (max-width: 768px) {
-.repocards-div-main{
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  .repocards-div-main {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
