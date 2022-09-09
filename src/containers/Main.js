@@ -17,7 +17,7 @@ export default class Main extends Component {
         <Skills />
         <SkillProgress />
         <Projects />
-        <Achievement />
+        {/* <Achievement /> */}
         <Profile />
         <Top />
       </div>
