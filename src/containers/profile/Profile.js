@@ -45,7 +45,6 @@ export default function Profile() {
         console.log("Because of this Error Contact Section is Showed instead of Profile");
         openSource.showGithubProfile = "false";
       });
-    console.log("Printing test token: " + process.env.TEST_TOKEN);
   }
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {

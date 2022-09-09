@@ -1,6 +1,6 @@
 import emoji from "react-easy-emoji";
 
-require("dotenv").config();
+require("dotenv").config({ path: "../.env" });
 
 const greeting = {
   username: "Juan Saldana",
