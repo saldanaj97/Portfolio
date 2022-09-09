@@ -18,19 +18,22 @@ const socialMediaLinks = {
 };
 
 const skillsSection = {
-  title: "About Me",
-  subTitle: "Seeking oppurtunities develop new products with the following technologies.",
-  skills: [emoji("⚡ Developed highly interactive and user friendly interfaces for both mobile and web applcations."), emoji("⚡ Experience with integration of third party services such as Firebase, Microsoft Azure, and Microsoft SQL Server.")],
+  title: "About me",
+  subTitle: "Searching for new oppurtunities to take part in a team developing applications with the following technologies: ",
 
   // https://fontawesome.com/icons?d=gallery
   softwareSkills: [
     {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java",
+      skillName: "React.js",
+      fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python",
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node",
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "HTML-5",
@@ -41,17 +44,19 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js",
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python",
     },
-    {
-      skillName: "React.js",
-      fontAwesomeClassname: "fab fa-react",
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database",
-    },
+  ],
+};
+
+const careerGoals = {
+  title: "My goals as a software engineer consist of: ",
+  goals: [
+    emoji("⚡ Continuing to grow as a developer through contribution to new and exisiting widely used products "),
+    emoji("⚡ Working my way up different levels of software engineering with a company "),
+    emoji("⚡ Helping other engineers succeed in their own journeys as a developer "),
+    emoji("⚡ Gaining more knowledge of different technologies and fields by working with the many teams within a company "),
   ],
 };
 
@@ -148,4 +153,4 @@ const contactInfo = {
   email_address: "saldanaj97@gmail.com",
 };
 
-export { greeting, socialMediaLinks, skillsSection, educationSection, languageStack, openSource, achievementSection, contactInfo };
+export { greeting, socialMediaLinks, skillsSection, careerGoals, educationSection, languageStack, openSource, achievementSection, contactInfo };

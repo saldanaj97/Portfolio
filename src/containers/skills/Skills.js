@@ -1,31 +1,36 @@
 import React from "react";
 import "./skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { skillsSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { skillsSection, careerGoals } from "../../portfolio";
+import { Fade } from "react-reveal";
 
 export default function Skills() {
-    return (
-      <div className="main" id="skills">
-        <div className="skills-main-div">
-          <Fade left duration={1000}>
-          <div className="skills-image-div">
-            <img alt="Juan Working" src={require("../../assets/images/developerActivity.svg")}></img>
+  return (
+    <div className='main' id='skills'>
+      <div className='skills-main-div'>
+        <Fade left duration={1000}>
+          <div className='skills-image-div'>
+            <img alt='Juan Working' src={require("../../assets/images/developerActivity.svg")}></img>
           </div>
-          </Fade>
-          <Fade right duration={1000}>
-          <div className="skills-text-div">
-            <h1 className="skills-aboutme-heading">{skillsSection.title} </h1>
-            <p className="subTitle skills-text-subtitle">{skillsSection.subTitle}</p>
+        </Fade>
+        <Fade right duration={1000}>
+          <div className='skills-text-div'>
+            <h1 className='skills-aboutme-heading'>{skillsSection.title} </h1>
+            <p className='subTitle skills-text-subtitle'>{skillsSection.subTitle}</p>
             <SoftwareSkill />
             <div>
-              {skillsSection.skills.map(skills => {
-                return <p className="subTitle skills-text" key={skills}>{skills}</p>;
+              <p className='subtitle experience-text-subtitle'>{careerGoals.title}</p>
+              {careerGoals.goals.map((goals) => {
+                return (
+                  <p className='subTitle skills-text' key={goals}>
+                    {goals}
+                  </p>
+                );
               })}
             </div>
           </div>
-          </Fade>
-        </div>
+        </Fade>
       </div>
-    );
-  }
+    </div>
+  );
+}
