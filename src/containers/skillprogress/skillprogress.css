@@ -50,7 +50,7 @@
 
 .skills-heading {
   font-size: 40px;
-  margin: 0px 5%;
+  margin: 15px 5%;
   line-height: 3vw;
 }
 
@@ -78,10 +78,38 @@
 
 @media (max-width: 768px) {
   .skills-container {
+    display: flex;
     flex-direction: column;
   }
+
+  .skills-container p {
+    line-height: 3rem;
+    margin: 10px 0px;
+  }
+
   .skills-bar {
+    line-height: normal;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .skills-heading {
+    line-height: 3rem;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 5%;
+  }
+
+  .third-party-container {
     line-height: 3rem;
     margin: 20px;
+    width: 90%;
+    align-items: center;
+  }
+
+  .third-party-container p {
+    line-height: 3rem;
+    margin: 10px 0px;
   }
 }

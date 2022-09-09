@@ -25,8 +25,7 @@ export default function StackProgress() {
             })}
           </div>
           <div className='third-party-container'>
-            {" "}
-            <h2 className='skills-heading'>Third-Party Services</h2>
+            <h1 className='skills-heading'>Third-Party Services</h1>
             {languageStack.thirdPartyExperience.map((exp) => {
               return (
                 <p className='skill' key={exp}>
