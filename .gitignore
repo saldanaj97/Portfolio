@@ -3,3 +3,9 @@ node_modules
 
 # Environment vars
 .env
+
+# Build folder 
+build/ 
+
+# Local Netlify folder
+.netlify
