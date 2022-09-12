@@ -57,8 +57,8 @@ const careerGoals = {
   goals: [
     emoji("⚡ Continuing to grow as a developer through contribution to new and exisiting widely used products "),
     emoji("⚡ Working my way up different levels of software engineering with a company "),
-    emoji("⚡ Helping other engineers succeed in their own journeys as a developer "),
-    emoji("⚡ Gaining more knowledge of different technologies and fields by working with the many teams within a company "),
+    emoji("⚡ Helping other engineers succeed in their own journeys as developers "),
+    emoji("⚡ Gaining knowledge of different technologies and fields by working with the many teams within a company "),
   ],
 };
 
