@@ -1,0 +1,65 @@
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deployed-projects-header {
+  font-size: 40px;
+  margin: 25px 5%;
+}
+
+.project-cards {
+  width: 100%;
+}
+
+.project-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-card {
+  width: 80%;
+  height: auto;
+  padding: 15px;
+}
+
+.project-screenshot {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.project-description-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-tech-flares-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px;
+  align-items: center;
+}
+
+.tech-flare {
+  background-color: white;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-button {
+  margin: 15px;
+}
+
+.project-name-div {
+  justify-content: center;
+}

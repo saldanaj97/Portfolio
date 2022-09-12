@@ -7,6 +7,7 @@ import Projects from "./projects/Projects";
 import Achievement from "./achievement/Achievement";
 import Profile from "./profile/Profile";
 import Top from "./topbutton/Top";
+import DeployedProjects from "./deployedprojects/deployedprojects";
 
 export default class Main extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class Main extends Component {
         <Skills />
         <SkillProgress />
         <Projects />
+        <DeployedProjects />
         {/* <Achievement /> */}
         <Profile />
         <Top />
