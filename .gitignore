@@ -1,6 +1,9 @@
 # Node Modules
 node_modules
 
+# DS Store
+.DS_Store
+
 # Environment vars
 .env
 
