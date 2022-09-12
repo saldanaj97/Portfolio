@@ -14,7 +14,7 @@ export default function DeployedProjects() {
     <div className='deployed-container'>
       <h1 className='deployed-projects-header'>{deployedProjects.title}</h1>
       <div className='row'>
-        <Carousel className='project-cards' height={900}>
+        <Carousel className='project-cards'>
           {deployedProjects.projects.map((project, i) => (
             <div className='project-card-container'>
               <div className='project-card' style={{ backgroundColor: "#a39bd3", borderRadius: "25px" }} key={i}>

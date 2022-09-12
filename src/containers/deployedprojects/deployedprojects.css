@@ -21,7 +21,7 @@
 
 .project-card {
   width: 80%;
-  height: auto;
+  height: 900;
   padding: 15px;
 }
 
@@ -62,4 +62,39 @@
 
 .project-name-div {
   justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .project-cards {
+    height: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-cards {
+    height: 600px;
+  }
+
+  .deployed-projects-header {
+    text-align: center;
+  }
+
+  .project-screenshot {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .project-description-box {
+    flex-direction: column;
+  }
+
+  h3 {
+    margin: 5px 0px;
+  }
+
+  .project-tech-flares-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
