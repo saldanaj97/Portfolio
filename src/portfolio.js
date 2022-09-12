@@ -1,4 +1,6 @@
 import emoji from "react-easy-emoji";
+import iRacingWeeklyScreenshot from "./assets/images/iracingweekly.png";
+import chattyio from "./assets/images/chattyio.png";
 
 require("dotenv").config({ path: "../.env" });
 
@@ -121,6 +123,29 @@ const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
 };
 
+const deployedProjects = {
+  title: "Deployed Projects",
+  projects: [
+    {
+      name: "iRacingWeekly",
+      url: "https://iracingweekly.netlify.app/",
+      screenshot: iRacingWeeklyScreenshot,
+      description:
+        "This tool will be used for viewing which races for every series are occuring each week of the season along with the time of the next available race. The user can select which cars and tracks they own as well as select which series they want to follow. ",
+      repoUrl: "https://github.com/saldanaj97/iRacing-Race-Info",
+      techUsed: ["MongoDB", "Express", "React", "Node", "Axios", "Material UI"],
+    },
+    {
+      name: "Chatty.io",
+      url: "https://chattyio.netlify.app/",
+      screenshot: chattyio,
+      description: "Chatroom with user accounts as well as group support. ",
+      repoUrl: "https://github.com/saldanaj97/ChatApp",
+      techUsed: ["MongoDB", "Express", "React", "Node", "Axios", "Chakra UI"],
+    },
+  ],
+};
+
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle: "Achievements and Certifications I have acquired! ",
@@ -154,4 +179,4 @@ const contactInfo = {
   email_address: "saldanaj97@gmail.com",
 };
 
-export { greeting, socialMediaLinks, skillsSection, careerGoals, educationSection, languageStack, openSource, achievementSection, contactInfo };
+export { greeting, socialMediaLinks, skillsSection, careerGoals, educationSection, languageStack, openSource, deployedProjects, achievementSection, contactInfo };
