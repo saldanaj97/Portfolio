@@ -1,7 +1,7 @@
 {
-  "homepage": "https://saldanajuan.herokuapp.com/",
+  "homepage": "https://juancsaldana.com/",
   "name": "swe_portfolio",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "private": true,
   "engines": {
     "node": "~6.10.3",
