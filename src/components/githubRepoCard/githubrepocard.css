@@ -8,36 +8,37 @@
   height: 150px;
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(88, 96, 105) 0px 5px 15px;
 }
 
 .repo-card-div:hover {
   box-shadow: #ffffff 0px 20px 30px -10px;
 }
-  
+
 .repo-left-stat {
   -webkit-box-flex: 1;
   flex-grow: 1;
   display: flex;
   color: lightgrey;
 }
-  
+
 .repo-left-stat span {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
   margin-right: 0.75rem;
 }
-  
+
 .repo-name-div {
   display: flex;
   height: 50px;
 }
-  
+
 .repo-svg {
   margin-right: 0.5rem;
   min-width: 16px;
 }
-  
+
 .repo-name {
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -58,4 +59,3 @@
   color: white;
   height: 85px;
 }
-
