@@ -94,40 +94,6 @@ const educationSection = {
   ],
 };
 
-const languageStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "React",
-      progressPercentage: "60%",
-    },
-    {
-      Stack: "Node/Express",
-      progressPercentage: "60%",
-    },
-    {
-      Stack: "MongoDB",
-      progressPercentage: "60%",
-    },
-    {
-      Stack: "Python",
-      progressPercentage: "25%",
-    },
-    {
-      Stack: "Flutter",
-      progressPercentage: "40%",
-    },
-  ],
-  thirdPartyExperience: [
-    emoji("🚀 MongoDB Atlas"),
-    emoji("🚀 Railway"),
-    emoji("🚀 Heroku"),
-    emoji("🚀 Netlify"),
-    emoji("🚀 Firestore"),
-    emoji("🚀 Github"),
-  ],
-};
-
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "saldanaj97", // Change to your github username to view your profile in Contact Section.
@@ -157,48 +123,11 @@ const deployedProjects = {
   ],
 };
 
-const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements and Certifications I have acquired! ",
-
-  achivementsCards: [
-    {
-      title: "C++ LinkedIn Assessment",
-      subtitle: "Passed C++ LinkedIn Assessment displaying solid foundational knowledge of C++.",
-      image: require("./assets/images/cplusplus.png"),
-      footerLink: [],
-    },
-    {
-      title: "Git LinkedIn Assessment",
-      subtitle: "Passed Git LinkedIn Assessment displaying solid foundational knowledge of Git.",
-      image: require("./assets/images/git.png"),
-      footerLink: [],
-    },
-    {
-      title: "Python LinkedIn Assessment",
-      subtitle: "Passed Python LinkedIn Assessment displaying solid foundational knowledge of python.",
-      image: require("./assets/images/python.png"),
-      footerLink: [],
-    },
-  ],
-};
-
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Feel free to reach me at my email, through the phone, or on LinkedIn.",
+  subtitle: "Let's connect and explore how my skills and expertise can contribute to your software engineering needs.",
   number: "(469)432-9695",
   email_address: "saldanaj97@gmail.com",
 };
 
-export {
-  greeting,
-  socialMediaLinks,
-  aboutMe,
-  careerGoals,
-  educationSection,
-  languageStack,
-  openSource,
-  deployedProjects,
-  achievementSection,
-  contactInfo,
-};
+export { greeting, socialMediaLinks, aboutMe, careerGoals, educationSection, openSource, deployedProjects, contactInfo };
