@@ -9,3 +9,8 @@ build/
 
 # Local Netlify folder
 .netlify
+
+# VS code
+.vscode
+
+
