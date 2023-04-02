@@ -57,15 +57,6 @@ const aboutMe = {
   ],
 };
 
-const careerGoals = {
-  title: "My goals as a software engineer consist of: ",
-  goals: [
-    "As a junior software engineer, my top priority is to learn and grow as much as I can, while contributing to the development of exciting and impactful products. I'm excited to work my way up the ranks of software engineering and develop my skills alongside an experienced team.",
-    "In addition to my technical abilities, I'm a firm believer in the power of collaboration and teamwork. I'm dedicated to helping my fellow engineers succeed and learning from them in turn.",
-    "I'm thrilled about the prospect of contributing my skills and passion to your team as a junior software engineer, and I look forward to discussing how we can work together to achieve great things.",
-  ],
-};
-
 const educationSection = {
   title: "Education",
   subtitle: "Relevant Coursework",
@@ -130,4 +121,4 @@ const contactInfo = {
   email_address: "saldanaj97@gmail.com",
 };
 
-export { greeting, socialMediaLinks, aboutMe, careerGoals, educationSection, openSource, deployedProjects, contactInfo };
+export { greeting, socialMediaLinks, aboutMe, educationSection, openSource, deployedProjects, contactInfo };
