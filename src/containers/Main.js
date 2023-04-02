@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "./header/Header";
 import Greeting from "./greeting/Greeting";
-import Skills from "./skills/Skills";
+import AboutMe from "./aboutme/AboutMe";
 import SkillProgress from "./skillprogress/SkillProgress";
 import Projects from "./projects/Projects";
 import Profile from "./profile/Profile";
@@ -14,7 +14,7 @@ export default class Main extends Component {
       <div>
         <Header />
         <Greeting />
-        <Skills />
+        <AboutMe />
         <SkillProgress />
         <Projects />
         <DeployedProjects />

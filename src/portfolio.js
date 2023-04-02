@@ -8,7 +8,7 @@ const greeting = {
   username: "Juan Saldana",
   title: "Hi all, I'm Juan",
   subTitle: emoji(
-    "A highly motivated Software Developer based in Dallas, TX seeking opportunities in developing web applications primarily using javascript and javascript frameworks. The buttons below contain links to contact me or look at my past work. "
+    "A passionate Software Engineer with experience in building web applications with React as well as experience with a different frontend UI libraries and backend frameworks. I'm thrilled about the prospect of contributing my skills and passion to your team as a junior software engineer, and I look forward to discussing how we can work together to achieve great things."
   ),
   resumeLink: "https://docs.google.com/document/d/1uziqWB0PZMeOtWaplyu45jTNqNo6uaIc/edit?usp=sharing&ouid=108676278263961432674&rtpof=true&sd=true",
 };
@@ -19,10 +19,15 @@ const socialMediaLinks = {
   gmail: "saldanaj97@gmail.com",
 };
 
-const skillsSection = {
+const aboutMe = {
   title: "About me",
-  subTitle: "Searching for new oppurtunities to take part in a team developing applications with the following technologies: ",
-
+  subTitle:
+    "As a passionate software enthusiast, I'm on the lookout for new opportunities to join a dynamic team in building cutting-edge applications. I have hands-on experience with a range of popular technologies including React.js, Node.js, MongoDB, HTML-5, CSS, and Python.",
+  goals: [
+    "I'm on the lookout for new opportunities to join a dynamic team in building cutting-edge applications. As a junior software engineer, my top priority is to learn and grow as much as I can, while contributing to the development of exciting and impactful products. I'm excited to work my way up the ranks of software engineering and develop my skills alongside an experienced team.",
+    "I have hands-on experience with a range of popular technologies, including but not limited to React.js, Node.js, MongoDB, HTML-5, CSS, and Python.",
+    "In addition to my technical abilities, I'm a firm believer in the power of collaboration and teamwork. I'm eager to expand my knowledge and explore new technologies and fields through working with diverse teams within a company. I'm confident that with my dedication and enthusiasm, I can make a meaningful impact and help us achieve great things together.",
+  ],
   // https://fontawesome.com/icons?d=gallery
   softwareSkills: [
     {
@@ -55,10 +60,9 @@ const skillsSection = {
 const careerGoals = {
   title: "My goals as a software engineer consist of: ",
   goals: [
-    emoji("⚡ Continuing to grow as a developer through contribution to new and exisiting widely used products "),
-    emoji("⚡ Working my way up different levels of software engineering with a company "),
-    emoji("⚡ Helping other engineers succeed in their own journeys as developers "),
-    emoji("⚡ Gaining knowledge of different technologies and fields by working with the many teams within a company "),
+    "As a junior software engineer, my top priority is to learn and grow as much as I can, while contributing to the development of exciting and impactful products. I'm excited to work my way up the ranks of software engineering and develop my skills alongside an experienced team.",
+    "In addition to my technical abilities, I'm a firm believer in the power of collaboration and teamwork. I'm dedicated to helping my fellow engineers succeed and learning from them in turn.",
+    "I'm thrilled about the prospect of contributing my skills and passion to your team as a junior software engineer, and I look forward to discussing how we can work together to achieve great things.",
   ],
 };
 
@@ -114,7 +118,14 @@ const languageStack = {
       progressPercentage: "40%",
     },
   ],
-  thirdPartyExperience: [emoji("🚀 MongoDB Atlas"), emoji("🚀 Railway"), emoji("🚀 Heroku"), emoji("🚀 Netlify"), emoji("🚀 Firestore"), emoji("🚀 Github")],
+  thirdPartyExperience: [
+    emoji("🚀 MongoDB Atlas"),
+    emoji("🚀 Railway"),
+    emoji("🚀 Heroku"),
+    emoji("🚀 Netlify"),
+    emoji("🚀 Firestore"),
+    emoji("🚀 Github"),
+  ],
 };
 
 const openSource = {
@@ -179,4 +190,15 @@ const contactInfo = {
   email_address: "saldanaj97@gmail.com",
 };
 
-export { greeting, socialMediaLinks, skillsSection, careerGoals, educationSection, languageStack, openSource, deployedProjects, achievementSection, contactInfo };
+export {
+  greeting,
+  socialMediaLinks,
+  aboutMe,
+  careerGoals,
+  educationSection,
+  languageStack,
+  openSource,
+  deployedProjects,
+  achievementSection,
+  contactInfo,
+};
