@@ -1,6 +1,8 @@
 import emoji from "react-easy-emoji";
 import iRacingWeeklyScreenshot from "./assets/images/iracingweekly.png";
 import chattyio from "./assets/images/chattyio.png";
+import eCommerce from "./assets/images/e-commerce.png";
+import ratingForm from "./assets/images/rating-component.png";
 
 require("dotenv").config({ path: "../.env" });
 
@@ -104,12 +106,31 @@ const deployedProjects = {
       techUsed: ["MongoDB", "Express", "React", "Node", "Axios", "Material UI"],
     },
     {
+      name: "E-Commerce Website",
+      url: "https://fe-ecommerce-site.netlify.app/",
+      screenshot: eCommerce,
+      description:
+        "An e-commerce website built with Next.js using designs provided by FrontendMentor.io. This app is fully responsive(mobile and desktop) and features a shopping cart, product page, and checkout widget with working state. ",
+      repoUrl: "https://github.com/saldanaj97/ecommerce-product-page-main",
+      techUsed: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
+    },
+    {
       name: "Chatty.io",
       url: "https://chattyio.netlify.app/",
       screenshot: chattyio,
-      description: "Chatroom with user accounts as well as group support. ",
+      description:
+        "Chatroom application built with React and Socket.io. This group chat app features user authentication, multi-user per group, online user lists, multi-group support per-user, and a chat history. ",
       repoUrl: "https://github.com/saldanaj97/ChatApp",
-      techUsed: ["MongoDB", "Express", "React", "Node", "Axios", "Chakra UI"],
+      techUsed: ["MongoDB", "Express", "React", "Node", "Socket.io", "Axios", "Chakra UI"],
+    },
+    {
+      name: "Multi-Step Rating Form",
+      url: "https://cerulean-quokka-92dfde.netlify.app/",
+      screenshot: ratingForm,
+      description:
+        "A multi-step rating form built with React and Next.js with utilizing designs from FrontendMentor.io. This app features a form with two steps, error checking, and state management. ",
+      repoUrl: "https://github.com/saldanaj97/interactive-rating-component-main",
+      techUsed: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
     },
   ],
 };
