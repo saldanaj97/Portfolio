@@ -13,4 +13,7 @@ build/
 # VS code
 .vscode
 
+# DS_Store(MacOS)
+.DS_Store
+
 
