@@ -8,7 +8,7 @@ const greeting = {
   username: "Juan Saldana",
   title: "Hi all, I'm Juan",
   subTitle: emoji(
-    "A passionate Software Engineer with experience in building web applications with React as well as experience with a different frontend UI libraries and backend frameworks. I'm thrilled about the prospect of contributing my skills and passion to your team as a junior software engineer, and I look forward to discussing how we can work together to achieve great things."
+    "A passionate Software Engineer with experience in building web applications with React as well as experience with different frontend UI libraries and backend frameworks. I'm thrilled about the prospect of contributing my skills and passion to your team as a junior software engineer, and I look forward to discussing how we can work together to achieve great things."
   ),
   resumeLink: "https://docs.google.com/document/d/1uziqWB0PZMeOtWaplyu45jTNqNo6uaIc/edit?usp=sharing&ouid=108676278263961432674&rtpof=true&sd=true",
 };
