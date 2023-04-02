@@ -5,11 +5,6 @@ import Carousel from "react-material-ui-carousel";
 import "./deployedprojects.css";
 
 export default function DeployedProjects() {
-  // Function to handle when a user clicks on a project card
-  const handleClick = (url) => {
-    window.open(url);
-  };
-
   return (
     <div className='deployed-container'>
       <h1 className='deployed-projects-header'>{deployedProjects.title}</h1>

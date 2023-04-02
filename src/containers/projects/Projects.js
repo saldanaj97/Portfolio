@@ -32,9 +32,7 @@ export default function Projects() {
           <div className='row'>
             <div className='repocards-div-main'>
               {repo.map((v, i) => {
-                if (v.stargazers_count > 0) {
-                  return <GithubRepoCard repo={v} key={v.node_id} />;
-                }
+                return v.stargazers_count > 0 && <GithubRepoCard repo={v} key={v.node_id} />;
               })}
             </div>
           </div>
