@@ -95,6 +95,14 @@
     height: 100%;
     margin: 20px 20px 0px 20px;
   }
+
+  .project-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    height: 150px;
+  }
 }
 
 @media (max-width: 1379px) {
