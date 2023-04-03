@@ -8,7 +8,7 @@ require("dotenv").config({ path: "../.env" });
 
 const greeting = {
   username: "Juan Saldana",
-  title: "Hi all, I'm Juan",
+  title: "Hi, I'm Juan",
   subTitle: emoji(
     "A passionate Software Engineer with experience in building web applications with React as well as experience with different frontend UI libraries and backend frameworks. I'm thrilled about the prospect of contributing my skills and passion to your team as a junior software engineer, and I look forward to discussing how we can work together to achieve great things."
   ),
@@ -53,34 +53,6 @@ const aboutMe = {
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python",
-    },
-  ],
-};
-
-const educationSection = {
-  title: "Education",
-  subtitle: "Relevant Coursework",
-  courses: [
-    {
-      courseName: "Data Structures",
-    },
-    {
-      courseName: "Algorithms",
-    },
-    {
-      courseName: "Human Computer Interfaces (UI Development)",
-    },
-    {
-      courseName: "Intro to Databases",
-    },
-    {
-      courseName: "Software Engineering",
-    },
-    {
-      courseName: "Computer Networking",
-    },
-    {
-      courseName: "Technical Writing",
     },
   ],
 };
@@ -140,4 +112,4 @@ const contactInfo = {
   email_address: "saldanaj97@gmail.com",
 };
 
-export { greeting, socialMediaLinks, aboutMe, educationSection, openSource, deployedProjects, contactInfo };
+export { greeting, socialMediaLinks, aboutMe, openSource, deployedProjects, contactInfo };
