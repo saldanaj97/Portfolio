@@ -48,9 +48,39 @@
 }
 
 /* Media Query */
-@media (max-width: 1380px) {
+@media (max-width: 1379px) {
   .skills-aboutme-heading {
     font-size: 40px;
+  }
+
+  .about-me-main-div {
+    flex-direction: column;
+    background: none;
+    margin: -40px 0px;
+  }
+
+  .about-me-text-div {
+    margin-left: 0px;
+    margin: 0px 20px;
+  }
+
+  .about-me-heading {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .about-me-text {
+    font-size: 16px;
+  }
+
+  .about-me-text-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .about-me-image-div {
+    display: none;
+    order: 2;
   }
 }
 

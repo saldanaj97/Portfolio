@@ -21,6 +21,18 @@
 }
 
 /* Media Query */
+@media (max-width: 1379px) {
+  .repocards-div-main {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .projects-heading {
+    margin: 25px 5%;
+    text-align: center;
+  }
+}
+
+/* Media Query */
 @media (max-width: 768px) {
   .repocards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
