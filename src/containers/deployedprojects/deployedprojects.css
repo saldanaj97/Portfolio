@@ -40,24 +40,14 @@
   width: 1000px;
   height: 500px;
   border-radius: 20px;
-  margin: 0px auto;
-}
-
-.project-description-box {
-  display: flex;
-  flex-direction: column;
-  color: white;
-}
-
-.project-description-box h3 {
-  margin-bottom: 15px;
+  margin: 20px auto;
 }
 
 .project-tech-flares-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 15px 0px;
+  margin: 5px 20px;
 }
 
 .tech-flare {
@@ -71,6 +61,7 @@
 
 .project-description {
   color: white;
+  margin: 0px 20px;
 }
 
 .button-div {

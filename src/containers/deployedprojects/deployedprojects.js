@@ -13,15 +13,12 @@ export default function DeployedProjects() {
           {deployedProjects.projects.map((project, i) => (
             <div className='project-card-container'>
               <div className='project-card' style={{ backgroundColor: "#a39bd3", borderRadius: "25px" }} key={i}>
-                <h2 className='project-name'>{project.name}</h2>
                 <img className='project-screenshot' alt={project.name} src={project.screenshot} />
-                <div className='project-description-box'>
-                  <h3>Description</h3>
-                  <div className='project-tech-flares-container'>
-                    {project.techUsed.map((tech) => (
-                      <div className='tech-flare'>{tech}</div>
-                    ))}
-                  </div>
+                <h2 className='project-name'>{project.name}</h2>
+                <div className='project-tech-flares-container'>
+                  {project.techUsed.map((tech) => (
+                    <div className='tech-flare'>{tech}</div>
+                  ))}
                 </div>
                 <div className='project-description'>{project.description}</div>
                 <div className='button-div'>
