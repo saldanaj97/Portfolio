@@ -18,7 +18,7 @@ function Header() {
         </label>
         <ul className='menu'>
           <li>
-            <a href='#about-me'>About Me</a>
+            <a href='#about-me'>Goals</a>
           </li>
           <li>
             <a href='#projects'>Projects</a>

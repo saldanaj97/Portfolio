@@ -22,9 +22,7 @@ const socialMediaLinks = {
 };
 
 const aboutMe = {
-  title: "About me",
-  subTitle:
-    "As a passionate software enthusiast, I'm on the lookout for new opportunities to join a dynamic team in building cutting-edge applications. I have hands-on experience with a range of popular technologies including React.js, Node.js, MongoDB, HTML-5, CSS, and Python.",
+  title: "Goals",
   goals: [
     "I'm on the lookout for new opportunities to join a dynamic team in building cutting-edge applications. As a junior software engineer, my top priority is to learn and grow as much as I can, while contributing to the development of exciting and impactful products. I'm excited to work my way up the ranks of software engineering and develop my skills alongside an experienced team.",
     "I have hands-on experience with a range of popular technologies, including but not limited to React.js, Node.js, MongoDB, HTML-5, CSS, and Python.",
