@@ -125,3 +125,20 @@
     padding: 0px;
   }
 }
+
+@media (max-width: 375px) {
+  .greeting-text {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .greeting-text-p {
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .button-greeting-div {
+    margin: 0px;
+  }
+}

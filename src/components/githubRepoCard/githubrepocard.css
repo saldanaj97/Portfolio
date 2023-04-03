@@ -77,3 +77,18 @@
     align-items: flex-end;
   }
 }
+
+@media (max-width: 375px) {
+  .repo-name {
+    font-size: 12px;
+  }
+
+  .repo-description {
+    font-size: 10px;
+  }
+
+  .repo-left-stat {
+    font-size: 10px;
+    align-items: flex-end;
+  }
+}

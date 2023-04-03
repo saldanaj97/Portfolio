@@ -31,3 +31,10 @@
     text-align: center;
   }
 }
+
+@media (max-width: 375px) {
+  .projects-heading {
+    margin-bottom: 0px;
+    font-size: 40px;
+  }
+}
