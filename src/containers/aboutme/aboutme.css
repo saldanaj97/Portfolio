@@ -22,6 +22,8 @@
   background-color: white;
   border-radius: 40px;
   padding: 20px;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .about-me-main-div > * {

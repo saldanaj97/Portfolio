@@ -21,7 +21,7 @@ function Header() {
             <a href='#about-me'>Goals</a>
           </li>
           <li>
-            <a href='#projects'>Projects</a>
+            <a href='#deployed-projects'>Projects</a>
           </li>
           <li>
             <a href='#contact'>Contact Me</a>

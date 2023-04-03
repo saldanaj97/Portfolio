@@ -5,7 +5,6 @@ import { contactInfo } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Contact() {
-  console.log("hereeeeeeee", contactInfo.title);
   return (
     <Fade bottom duration={1000} distance='20px'>
       <div className='main' id='contact'>

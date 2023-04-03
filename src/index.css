@@ -19,6 +19,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   html,

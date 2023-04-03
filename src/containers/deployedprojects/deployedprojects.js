@@ -6,7 +6,7 @@ import "./deployedprojects.css";
 
 export default function DeployedProjects() {
   return (
-    <div className='deployed-container'>
+    <div className='deployed-container' id='deployed-projects'>
       <h1 className='deployed-projects-header'>{deployedProjects.title}</h1>
       <div className='row'>
         <Carousel className='project-cards'>

@@ -5,13 +5,15 @@
 }
 
 .deployed-projects-header {
-  font-size: 40px;
+  font-size: 60px;
+  font-weight: 900;
   margin: 25px 5%;
   color: #a39bd3;
 }
 
 .project-cards {
   width: 90%;
+  z-index: 1;
 }
 
 .project-card-container {
@@ -27,12 +29,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: rgba(88, 96, 105) 0px 5px 15px;
 }
 
 .project-name {
   font-size: 30px;
-  margin: 20px 20px;
+  margin: 10px 20px 0px 20px;
   color: white;
   font-weight: 700;
 }
@@ -41,14 +42,14 @@
   width: 1000px;
   height: 500px;
   border-radius: 20px;
-  margin: 20px auto;
+  margin: 20px 20px 0px 20px;
 }
 
 .project-tech-flares-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 5px 20px;
+  margin: 0px 20px;
 }
 
 .tech-flare {
@@ -63,6 +64,7 @@
 .project-description {
   color: white;
   margin: 0px 20px;
+  font-size: 17px;
 }
 
 .button-div {
