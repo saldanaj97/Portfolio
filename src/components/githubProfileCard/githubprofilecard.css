@@ -44,10 +44,6 @@
   text-shadow: blanchedalmond;
 }
 
-.row {
-  display: flex;
-}
-
 .image-content-profile {
   max-width: 100%;
   height: auto;
@@ -72,9 +68,8 @@
 
 /* Media */
 @media (max-width: 768px) {
-  .row {
-    display: flex;
-    flex-direction: column;
+  .main {
+    justify-content: space-evenly;
   }
 
   .main-content-profile {
@@ -87,8 +82,6 @@
   }
 
   .image-content-profile {
-    margin-left: auto;
-    margin-right: auto;
     order: 1;
   }
 
@@ -98,8 +91,6 @@
   }
 
   .profile-image {
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
     max-width: 250px;
     height: auto;
@@ -111,8 +102,13 @@
   }
 
   .prof-title {
-    padding-bottom: 1rem;
     font-size: 32px;
     text-align: center;
+    margin: 0px;
+  }
+
+  .prof-subtitle {
+    width: 100%;
+    font-size: 16px;
   }
 }

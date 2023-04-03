@@ -38,6 +38,14 @@
   font-weight: 700;
 }
 
+.project-screenshot-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+}
+
 .project-screenshot {
   width: 1000px;
   height: 500px;
@@ -70,7 +78,7 @@
 .button-div {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .project-button {
@@ -88,8 +96,15 @@
 }
 
 @media (max-width: 768px) {
+  .project-card {
+    display: block;
+    margin: 0px;
+    width: 80%;
+  }
+
   .project-cards {
-    height: 600px;
+    width: 100%;
+    height: 100%;
   }
 
   .deployed-projects-header {
@@ -97,21 +112,27 @@
   }
 
   .project-screenshot {
-    width: 100%;
-    border-radius: 0px;
+    width: 555px;
+    height: 275px;
+    margin: 10px 0px;
   }
 
-  .project-description-box {
+  .project-name {
+    text-align: center;
+  }
+
+  .project-description {
+    display: flex;
     flex-direction: column;
-  }
-
-  h3 {
-    margin: 5px 0px;
+    justify-content: center;
+    text-align: center;
+    height: 125px;
   }
 
   .project-tech-flares-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
   }
 }

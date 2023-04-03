@@ -43,7 +43,6 @@
 }
 
 .about-me-heading {
-  font-size: 40px;
   margin: 30px 0px;
   color: #a39bd3;
 }
@@ -54,19 +53,22 @@
     font-size: 40px;
   }
 }
-@media (max-width: 768px) {
-  .about-me-heading {
-    font-size: 30px;
-    text-align: center;
-  }
 
+@media (max-width: 768px) {
   .about-me-main-div {
     flex-direction: column;
+    background: none;
+    margin: -40px 0px;
   }
 
   .about-me-text-div {
     margin-left: 0px;
-    margin: 20px;
+    margin: 0px 20px;
+  }
+
+  .about-me-heading {
+    text-align: center;
+    margin-top: 0px;
   }
 
   .about-me-text {
@@ -79,7 +81,7 @@
   }
 
   .about-me-image-div {
-    /* display: none; */
+    display: none;
     order: 2;
   }
 }
