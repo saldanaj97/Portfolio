@@ -8,7 +8,7 @@
 
 .profile-image {
   border-radius: 50%;
-  border: 0.5rem solid #6c63ff;
+  border: 5px solid #a39bd3;
   width: 100%;
   max-width: 350px;
   height: auto;

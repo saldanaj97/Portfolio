@@ -11,7 +11,8 @@
 }
 
 .about-me-text-div {
-  margin-left: 50px;
+  margin-right: 100px;
+  color: #a39bd3;
 }
 
 .about-me-main-div > * {
@@ -33,6 +34,7 @@
 .about-me-heading {
   font-size: 40px;
   margin: 30px 0px;
+  color: #a39bd3;
 }
 
 /* Media Query */

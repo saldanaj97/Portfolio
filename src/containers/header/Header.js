@@ -8,9 +8,9 @@ function Header() {
     <Headroom>
       <header className='header'>
         <div className='logo'>
-          <span className='grey-color'> &lt;</span>
+          <span className='logo-arrow'> &lt;</span>
           <span className='logo-name'>{greeting.username}</span>
-          <span className='grey-color'>/&gt;</span>
+          <span className='logo-arrow'>/&gt;</span>
         </div>
         <input className='menu-btn' type='checkbox' id='menu-btn' />
         <label className='menu-icon' htmlFor='menu-btn'>
