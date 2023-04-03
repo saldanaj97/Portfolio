@@ -1,8 +1,7 @@
-import React from 'react';
-import './App.css';
+import React from "react";
 import Main from "./containers/Main";
 
-require('dotenv').config()
+require("dotenv").config();
 
 function App() {
   return (
